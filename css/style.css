@@ -1,0 +1,45 @@
+body{
+    background-color: orange;
+}
+.container-fluid{
+    background-color: orange;
+
+}
+.navbar {
+    margin: 0;
+    border: none;
+}
+
+.form-control{
+    background-color: black;
+}
+
+
+
+
+.card-hover {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* camada escondida */
+.info-hover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    background: rgba(251, 163, 2, 0.648);
+    color: black;
+    
+    padding: 15px;
+    
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+/* efeito ao passar o mouse */
+.card-hover:hover .info-hover {
+    transform: translateY(0);
+}

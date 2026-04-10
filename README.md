@@ -10,18 +10,18 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:Luis Felipe de Oliveira Silva
+- Matricula:915187
+- Proposta de projeto escolhida: Recomendações de animes
+- Breve descrição sobre seu projeto: Fazer com que as pessoas tenham informações e recomendações sobre os animes para que elas possam assistir.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  ![alt text](<Captura de tela 2026-04-10 170620.png>) >>
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  ![alt text](<Captura de tela 2026-04-10 170553.png>)>>
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 

@@ -1,12 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <title>Recomendações Anime</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+            
+    <body>
+       
+
+        <nav class="navbar navbar-expand-lg">
+        
+  <div class="container-fluid">
+
+   <header><b>RAnimes</b></header>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Animes</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorias
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Explorar tudo [A-Z]</a></li>
+            <li><a class="dropdown-item" href="#">Gênero</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+
+       
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+        <button class="btn btn-black texto-buscar" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="todos 2.webp" class="d-block w-100" style="height: 400px; object-fit: cover;">
+        </div>
+        
+        <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+<div class="container mt-4">
+    <div class="row">
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card card-hover">
+                <img src="luffy2.jpg" class="card-img-top" alt="imagem">
+                <div class="info-hover">
+                    <p>O pirata Monkey D. Luffy sai em busca do maior tesouro do mundo para se tornar o Rei dos Piratas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card card-hover">
+                <img src="attack.jpg" class="card-img-top" alt="imagem">
+                <div class="info-hover">
+                    <p>Attack on Titan: A humanidade vive cercada por muralhas para se proteger de gigantes chamados Titãs, enquanto Eren Yeager luta para descobrir a verdade e se vingar.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card card-hover">
+                <img src="naruto.jpg" class="card-img-top" alt="imagem">
+                <div class="info-hover">
+                    <p>Naruto: Um ninja rejeitado chamado Naruto Uzumaki sonha em se tornar líder da vila enquanto luta contra inimigos e busca reconhecimento.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<footer class="bg-dark text-white pt-4 mt-5">
+    <div class="container">
+        <div class="row">
+
+           
+            <div class="col-md-4">
+                <h5>RAnimes</h5>
+                <p>Seu site de recomendações de animes.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Animes</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Categorias</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="col-md-4">
+                <h5>Contato</h5>
+                <p>Email: contato@ranimes.com</p>
+            </div>
+
+        </div>
+
+        <hr class="bg-light">
+
+        <div class="text-center pb-3">
+            <p class="mb-0">© 2026 RAnimes</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+    </body>
 </html>
